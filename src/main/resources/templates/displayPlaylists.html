@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+		<h1>Playlist page pe agaya</h1>
+		
+		<table border>
+		<thead>
+		
+		<tr>
+		
+		<th>NAME</th>
+		<th>SONG</th>
+		
+		</tr>
+		
+		</thead>
+		
+		<tbody>
+		
+		<tr th:each="Playlist:${allplaylist}">
+			<td th:text="${Playlist.name}"></td>
+			<td th:text="${Playlist.name}"></td>
+			
+		</tbody>
+		</table>
+		
+</body>
+</html>

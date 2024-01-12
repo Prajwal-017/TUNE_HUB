@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a Song</title>
+  <link rel="stylesheet" th:href="@{/css/customer.css}">
+</head>
+<body>
+
+  <form action="addSong" method="post">
+    <fieldset>
+      <legend>Add a Song</legend>
+
+      <label for="songName">Song Name:</label>
+      <input type="text" id="songName" name="name" required>
+
+      <label for="songArtist">Song Artist:</label>
+      <input type="text" id="songArtist" name="artist" required>
+
+      <label for="songGenre">Song Genre:</label>
+      <input type="text" id="songGenre" name="genre" required>
+
+      <label for="songLink">Song Link:</label>
+      <input type="text" id="songLink" name="link" required>
+
+      <input type="submit" value="ADD Song">
+    </fieldset>
+  </form>
+
+</body>
+</html>

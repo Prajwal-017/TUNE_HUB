@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="checkbox"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+label[for="playlistName"] {
+  margin-bottom: 10px;
+}
+
+.song-list {
+  margin-bottom: 20px;
+}
+
+.song-list label {
+  display: inline-block;
+  margin-right: 10px;
+}
